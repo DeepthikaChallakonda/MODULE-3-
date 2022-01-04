@@ -10,3 +10,21 @@ int main()
 	
 	printf("%.lf^%.lf = %.2lf",base,exp,result);
 }
+
+
+
+#include<stdio.h>
+#include<math.h>
+int result(int , int);
+int main()
+{
+    int a,b;
+    printf("enter the values :");
+    scanf("%d%d",&a,&b);
+    result(a,b);
+}
+int result(int a, int b){
+    int c;
+    c=pow(a,b);
+    printf("%d",c);
+} 
