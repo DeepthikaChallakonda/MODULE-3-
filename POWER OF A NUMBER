@@ -28,3 +28,21 @@ int result(int a, int b){
     c=pow(a,b);
     printf("%d",c);
 } 
+
+
+
+#include<stdio.h>
+#include<math.h>
+void result()
+{
+    int i,j;
+    int c;
+    printf("enter the base and exp :");
+    scanf("%d%d",&i,&j);
+    c=pow(i,j);
+    printf("result=%d",c);
+}
+int main(void)
+{
+    result();
+}
