@@ -1,0 +1,14 @@
+#include"stdio.h"
+void max();
+void main()
+{
+    int a,b;printf("Enter any two numbers ");scanf("%d%d",&a,&b);
+    max(a,b);
+}
+void max(int x,int y)
+{
+    if(x>y)
+    printf("%d is the greatest",x);
+    else
+    printf("%d is the greatest",y);
+}
